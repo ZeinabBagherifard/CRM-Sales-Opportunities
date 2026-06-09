@@ -27,6 +27,17 @@ This project focuses on the following questions:
 3. Are there any quarter-over-quarter trends?
 4. Do any products have better win rates?
 
+## Key Findings
+
+- **West region** leads in total revenue ($3.57M), but **East** has 
+  the highest win rate (51.1%) — meaning East converts more efficiently.
+- **Low-revenue agents** mostly win over 60% of their deals — their 
+  issue is low pipeline volume, not poor closing skill.
+- **Revenue grew** from $524K in 2016Q4 to $2.97M in 2017Q2 despite 
+  a declining win rate — suggesting a shift toward higher-value deals.
+- **GTK 500** is the only underperforming product at 37.5% win rate, 
+  while all other products cluster between 46–50%.
+
 ## Setup
 
 Before running the notebook, install the required Python packages.
@@ -37,6 +48,12 @@ From the project folder, run:
 pip install -r requirements.txt
 ```
 
+## Tools Used
+
+- Python, Pandas, Matplotlib, Seaborn
+- Jupyter Notebook
+- Dataset: Maven Analytics (Public Domain)
+
 ## Run the analysis
 
 Open `crm_sales_opportunities_cleaning.ipynb` in Jupyter Notebook or JupyterLab, then run all cells to reproduce the data cleaning, analysis, and visualizations.
@@ -46,4 +63,4 @@ Open `crm_sales_opportunities_cleaning.ipynb` in Jupyter Notebook or JupyterLab,
 - `crm_sales_opportunities_cleaning.ipynb`: the main analysis notebook
 - `sales_pipeline.csv`, `accounts.csv`, `products.csv`, `sales_teams.csv`: source data files
 - `data_dictionary.csv`: field descriptions
-- `master_df_cleaned.csv`: cleaned master dataset 
+- `master_df_cleaned.csv`: cleaned master dataset

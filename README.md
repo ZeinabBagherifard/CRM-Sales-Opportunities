@@ -55,12 +55,6 @@ From the project folder, run:
 pip install -r requirements.txt
 ```
 
-## Tools Used
-
-- Python, Pandas, Matplotlib, Seaborn
-- Jupyter Notebook
-- Dataset: Maven Analytics (Public Domain)
-
 ## Run the analysis
 
 Open `crm_sales_opportunities_cleaning.ipynb` in Jupyter Notebook or JupyterLab, then run all cells to reproduce the data cleaning, analysis, and visualizations.

@@ -4,8 +4,6 @@ This project analyzes the **CRM Sales Opportunities** dataset from Maven Analyti
 
 **Tools:** Python · pandas · matplotlib · seaborn · Jupyter
 
-![Quarter-over-Quarter Won Revenue and Win Rate](quarterly_revenue.png)
-
 ---
 
 
@@ -45,6 +43,8 @@ This project focuses on the following questions:
 - **GTK 500** is the only underperforming product at 37.5% win rate, 
   while all other products cluster between 46–50%.
 
+  ![Quarter-over-Quarter Won Revenue and Win Rate](quarterly_revenue.png)
+
 ## Setup
 
 Before running the notebook, install the required Python packages.
@@ -71,3 +71,5 @@ Open `crm_sales_opportunities_cleaning.ipynb` in Jupyter Notebook or JupyterLab,
 - `sales_pipeline.csv`, `accounts.csv`, `products.csv`, `sales_teams.csv`: source data files
 - `data_dictionary.csv`: field descriptions
 - `master_df_cleaned.csv`: cleaned master dataset
+
+*Author: Zeinab BagheriFard*

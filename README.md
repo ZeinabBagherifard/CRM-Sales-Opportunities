@@ -4,6 +4,8 @@ This project analyzes the **CRM Sales Opportunities** dataset from Maven Analyti
 
 **Tools:** Python · pandas · matplotlib · seaborn · Jupyter
 
+![Quarter-over-Quarter Won Revenue and Win Rate](quarterly_revenue.png)
+
 ---
 
 

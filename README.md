@@ -2,6 +2,11 @@
 
 This project analyzes the **CRM Sales Opportunities** dataset from Maven Analytics. The dataset represents B2B sales pipeline activity for a fictitious company that sells computer hardware.
 
+**Tools:** Python · pandas · matplotlib · seaborn · Jupyter
+
+---
+
+
 ## Dataset
 
 Source page: https://mavenanalytics.io/data-playground/crm-sales-opportunities
